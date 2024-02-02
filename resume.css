@@ -1,0 +1,61 @@
+body {background-color: black;}
+h2{color: blue;
+    text-align: center;
+}
+h1{color: teal;
+text-align: center;
+text-decoration: solid;
+text-decoration: underline;}
+
+.card-box {
+    display: flexbox;
+    border: 1px solid teal;
+     width: 100px;
+     justify-content: space-evenly;
+     flex-direction: column;
+  }
+  .objective {
+  align-items: center;
+   display: flexbox;
+   border: 3px solid teal;
+    width: 1000px;
+    flex-grow: calc(4);
+  }
+  .profilepic  {align-items: center;
+   /* display: flexbox; */
+   border: 3px solid teal;
+    width: 500px;
+
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto; 
+ }
+ 
+ .card-body p, .card-body h3 {
+    margin: 8px;
+    /* display: flex; */
+ }
+ .card-container   {
+   color: aqua;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+section {color: teal;
+text-align: center;
+
+}
+.Professional  { align-items: center;
+   display: flexbox;
+   border: 3px solid teal;
+    width: 1000px;
+    flex-grow: calc(4);}
+
+li {
+   text-align: left;
+}
+h3{text-align: left;}
+h4 {text-align: left;}
+hr {color: aqua;
+}
